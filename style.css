@@ -1,0 +1,241 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+.navbar{
+ background-color: #e3f2fd;
+
+}
+
+
+.navbar-brand{
+ width: 70px;
+ mix-blend-mode: multiply;
+
+
+}
+.navbar-name{
+font-size: 20px;
+font-weight:bold;
+color: rgba(15, 15, 15, 0.904);
+
+
+
+
+}
+
+
+.nav-item{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+
+.carousel-caption{
+    bottom: 35%;
+    
+}
+
+
+    
+    
+
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.paragraph{
+max-width: 100px;
+    margin: 40px auto;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+.font-1{
+
+    font-size:2.5em;
+}
+.font-plus{
+    font-size: 2.5em;
+    padding: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bi{
+color:#faa511;
+
+}
+.icon{
+    list-style: none;
+    margin: 0,10px;
+}
+
+.icon a{
+    background-color: rgb(41, 41, 44);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+
+
+.bi-1{
+    color: rgb(222, 233, 219);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+
+    .carousel-caption{
+        bottom: 25%;
+        
+    }
+
+
+
+
+.carousel-item{
+width: 100%;
+
+}
+
+
+
+.container{
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.text-2{
+   text-align: center;
+
+
+}
+
+
+.card{
+   width:100%;
+}
+
+
+
+.img-1{
+  height:100vh; 
+}
+.paragraph{
+   max-width: 600px;
+       margin: 40px auto;
+       padding: 0;
+       overflow: hidden;
+   
+   }
+
+
+   .font-plus{
+       font-size: 2em;
+       padding: 5px;
+
+   }
+
+
+
+
+}  
+
+
+
+/* Small devices (Mobile, 576px and up) */
+
+  @media only screen and (min-width: 576px) and (max-width: 767px){ 
+
+
+
+    .carousel-caption{
+        bottom: 15%;
+        
+    }
+
+
+
+.col{
+  width: 100%;
+  flex-direction: column;  
+
+}
+.col-6{
+    width: 100%;
+    flex-direction: column; 
+
+}
+.card .h4{
+    font-size: 1.50em;
+    font-weight: bold;
+}
+.card .p{
+    font-size: 1.00em;
+}
+
+.container{
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.paragraph{
+   max-width: 600px;
+       margin: 40px auto;
+       padding: 0;
+       overflow: hidden;
+   
+    }
+
+
+ 
+
+ }
+
+
+
+
+
+ 
+
